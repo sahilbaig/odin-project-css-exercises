@@ -1,17 +1,29 @@
-# CSS Methods
-This final exercise for CSS Foundations is going to give you a closer look at the cascade, in particular specificity and rule order. Both the HTML and CSS files are filled out for you, so instead of adding rules yourself, you will simply be editing what is provided.
+# Methods for Adding CSS
 
-There are a few elements that have some sort of specificity or rule order issue in the provided CSS file. It's up to you to figure out what issue is affecting an element, and how to fix it. You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around. **You should not edit the HTML file or any of the actual styles in the CSS**.
+In this exercise, you're going to practice adding CSS to an HTML file using all three methods: external CSS, internal CSS, and inline CSS. You should only be using type selectors for this exercise when adding styles via the external and internal methods. You should also use keywords for colors (e.g. "blue") instead of using RGB or HEX values.
 
-There are multiple ways to solve this exercise, and we did our best to include all of the possible solutions for each element.
+There are three elements for you to add styles to, each of which uses a different method of adding CSS to it, as noted in the outcome image below. All other exercises in this section will have a CSS file provided and linked for you, but for this exercise you will have to create the file and link it in the HTML file yourself. This is all about practicing using these different methods and getting the syntax right.
 
-Issues with the cascade can be the bane of their existence for many when it comes to CSS. While you won't become a cascade expert from this exercise alone, and there are other ways to deal with these issues, it is still super helpful to see how these issues affect our final styles and why it's important to order rules carefully.
+> ## quick tip:
+>
+> Do not worry about details in these exercises that are not specifically mentioned in the exercise or self check section. Because the desired outcomes are screenshot
+>
+> 1. [](https://)s, your browser may show a different font, the colors may appear different on your machine, or the spacing between elements may look different. Only concern yourself with the specific items you are supposed to be learning for each exercise.
+
+The properties you need to add to each element are:
+
+* `div`: a red background, white text, a font size of 32px, center aligned, and bold
+* `p`: a green background, white text, and a font size of 18px
+* `button`: an orange background and a font size of 18px
 
 ## Desired Outcome
+
 ![desired outcome](./desired-outcome.png)
 
 ### Self Check
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
 
-_Note: for accessibility reasons, the style in this exercise has changed. For new and old students, we propose to carry out the exercise noting how important it is to pay attention to the accessibility of the web, and we encourage more and more practices like this._
+- Did you use all three methods of adding CSS to an HTML file?
+- Did you properly link the external CSS file in the HTML file?
+- Does the `div` element have CSS added via the external method?
+- Does the `p` element have CSS added via the internal method?
+- Does the `button` element have CSS added via the inline method?
